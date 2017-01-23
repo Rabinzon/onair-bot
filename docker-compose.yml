@@ -1,0 +1,7 @@
+onair-bot:
+    build: .
+    container_name: onair-bot
+    hostname: onair-bot
+    restart: always
+    ports:
+        - "8080:8080"
